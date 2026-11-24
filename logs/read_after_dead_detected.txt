@@ -1,0 +1,2 @@
+2026-11-24 11:46:34,960 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+104857600

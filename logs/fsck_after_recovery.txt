@@ -1,0 +1,41 @@
+FSCK started by root (auth:SIMPLE) from /172.22.0.5 for path /user/student/data/sample_100m.bin at Tue Nov 24 11:52:10 UTC 2026
+/user/student/data/sample_100m.bin 104857600 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1855316091-172.22.0.5-1795517744514:blk_1073741825_1001 len=104857600 Live_repl=2  [DatanodeInfoWithStorage[172.22.0.4:9866,DS-6d92050b-d757-4d90-b1c0-a73d1aff1a0d,DISK], DatanodeInfoWithStorage[172.22.0.2:9866,DS-ae66b6db-de0a-4f21-8cd7-d352ea9330d3,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	104857600 B
+ Total files:	1
+ Total blocks (validated):	1 (avg. block size 104857600 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Tue Nov 24 11:52:10 UTC 2026 in 1 milliseconds
+
+
+The filesystem under path '/user/student/data/sample_100m.bin' is HEALTHY
