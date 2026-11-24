@@ -28,7 +28,7 @@ services:
       - ./hadoop.env
 
   minio:
-    image: minio/minio
+    image: pgsty/minio:latest
     container_name: local_s3_minio
     ports:
       - "9001:9000"
